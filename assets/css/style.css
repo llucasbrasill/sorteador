@@ -250,6 +250,7 @@ main #left {
 			#resultado p {
 
 				font-size: 13px;
+				padding: 30px 14px;
 			}
 
 			#resultado input {
@@ -271,6 +272,8 @@ main #left {
 		    margin: 0;
 		    display: grid;
 		    height: auto;
+		    margin-top: 35px;
+		    border-top: 0;
 			}
 
 			#adicionar #participante {
@@ -281,6 +284,12 @@ main #left {
 		    padding: 2%;
 		    margin: 0;
 		    border: 0;
+				    border-bottom: 3px solid #eac12a;
+			}
+
+			#adicionar button {
+
+			      border-bottom: 2px solid #434343;
 			}
 
 			.participando {
@@ -290,6 +299,11 @@ main #left {
 		    left: 0;
 		    right: 0;
 		    padding: 2%;
+			}
+
+			.participando ul {
+
+				font-size: 13px;
 			}
 
 			#copy {
@@ -305,6 +319,11 @@ main #left {
 		    text-align: center;
 		    padding: 5px 0 5px 0;
 		    right: 0;
+			}
+
+			h3 {
+
+				font-size: 18px;
 			}
 
 
