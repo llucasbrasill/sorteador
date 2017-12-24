@@ -1,0 +1,246 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+
+* {
+
+font-family: 'Maven Pro', cursive;
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	padding: 0;s
+}
+
+header {
+
+
+	width: 100%;
+	text-align: center;
+}
+
+header h1 {
+
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 25px;
+	padding: 55px;
+	color: #3f51b5;
+	max-width: 250px;
+	display: inline-block;
+
+}
+
+.ads {
+			width: 100%;
+			left: 0%;
+			right: 0%;
+	    text-align: center;
+	    margin: 25px auto;
+			height: auto;
+			color: #ffffff;
+			background: #3F51B5;
+			padding: 15px 0 15px 0;
+}
+
+h2 {
+
+
+	    padding: 15px;
+	    text-transform: uppercase;
+	    font-size: 20px;
+
+
+}
+
+h3 {
+  font-size: 25px;
+}
+
+main #right {
+
+	position: absolute;
+	top: 250px;
+	float: right;
+	right: 50px;
+
+}
+
+main #left {
+
+	position: absolute;
+	    top: 250px;
+	    float: left;
+	    left: 50px;
+
+}
+#resultado {
+
+	background: #eac12a;
+	    width: 50%;
+	    left: 25%;
+	    position: relative;
+	    font-size: larger;
+	    text-transform: uppercase;
+	    color: #434343;
+	    font-weight: bold;
+	    display: inline-flex;
+	    right: 25%;
+}
+
+#resultado p {
+
+	padding: 14px;
+	    position: relative;
+	    left: 0px;
+	    padding-right: 100px;
+	    color: #434343;
+}
+
+#adicionar {
+
+	width: 50%;
+	text-align: center;
+	left: 25%;
+	right: 25%;
+	position: relative;
+	height: 35px;
+	display: inline-flex;
+	border-top: 5px solid #cea40b;
+}
+#adicionar #participante{
+
+	width: 100%;
+	height: 35px;
+	position: relative;
+	border: 2px solid #3f51b5;
+	padding: 0 10px 0 10px;
+	background: #3f51b5;
+	left: 0;
+	color: #fff;
+}
+
+#resultado input {
+
+	display: inline-block;
+	height: 100%;
+	background: #e8b704;
+	color: #434343;
+	padding: 0 20px 0 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	right: 0;
+	position: absolute;
+}
+#adicionar input[type="text"]::-webkit-input-placeholder {
+  color: #fff;
+}
+
+#adicionar button {
+
+	display: inline-block;
+	height: 39px;
+	color: #fff;
+	background: #3f51b5;
+	padding: 0 10px 0 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+}
+#resultado input:hover {
+
+	background: #d0a509;
+}
+#adicionar button:hover, #remover:hover {
+
+	background: #2c41b5;
+	color: #fff;
+}
+
+#remover {
+
+	display: inline-block;
+	height: 39px;
+	color: #fff;
+	background: #3f51b5;
+	padding: 0 10px 0 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	}
+
+.participando {
+
+	width: 48%;
+	display: inline-block;
+	left: 25%;
+	right: 25%;
+	position: relative;
+	padding: 1%;
+	background: #eac12a;
+	color: #434343;
+	text-transform: uppercase;
+	min-height: 200px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	}
+
+	#participando li {
+		display: block;
+		padding: 5px;
+	}
+
+	#sorteado li {
+
+		    display: inline;
+	}
+
+	footer {
+
+		bottom: 0;
+    padding: 25px 0px 40px 0px;
+    width: 100%;
+    background: #191919;
+    text-transform: uppercase;
+    color: #afafaf;
+	}
+
+	#copy {
+
+		left: 30px;
+    float: left;
+    font-size: 13px;
+    position: relative;
+    margin-right: 70px;
+
+	}
+
+	#dev {
+
+		float: right;
+		right: 30px;
+		position: relative;
+		font-size: 13px;
+
+		}
+
+		#dev a {
+
+			text-decoration: none;
+			color: #afafaf;
+		}
+
+
+		/* Smartphones (portrait and landscape) ----------- */
+		@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		/* Styles */
+		}
+
+
+		@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+		/* Styles */
+		}
+		/* Desktops and laptops ----------- */
+		@media only screen  and (min-width : 1224px) {
+		/* Styles */
+		}

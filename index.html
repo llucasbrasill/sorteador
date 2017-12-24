@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Sorteie Online</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="assets/js/js.js"></script>
+</head>
+<body>
+	<header>
+
+		<h1>Sorteador online</h1>
+	</header>
+	<main>
+		<div class="ads">
+
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- Sorteio Online - ADS -->
+			<ins class="adsbygoogle"
+					 style="display:block"
+					 data-ad-client="ca-pub-7131564006816630"
+					 data-ad-slot="3177653333"
+					 data-ad-format="auto"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+			</div>
+
+			<div id="resultado">
+				<p>Sorteado: <span id="sorteado"></span></p>
+				<input type="submit" onclick="sortear()" value="Sortear">
+			</div>
+
+			<div id="adicionar">
+				<input type="text" name="participante" placeholder="Nome do Participante" id="participante" autocomplete="off"/>
+				<button onclick="adicionarParticipante()">Adicionar</button>
+				<button onclick="remover()" id="remover">Remover</button>
+			</div>
+
+			<div class="participando">
+				<h3>Participantes</h3>
+
+				<ul id="participando">
+					<li>Nenhum participante, adicione os participantes!</li>
+				</ul>
+			</div>
+
+	</main>
+
+	<footer>
+
+		<p id="copy">&copy 2018 - Sorteie Online</p>
+		<p id="dev"><a href="http://www.llucasbrasill.com" id="lucas" target="_blank">Desenvolvido por Lucas P. Sodré</a></p>
+
+	</footer>
+
+</body>
+</html>
